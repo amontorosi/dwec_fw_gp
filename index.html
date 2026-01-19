@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API REST - Viviendas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card shadow mt-5">
+                    <div class="card-header bg-primary text-white">
+                        <h1 class="h3 mb-0">API REST</h1>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="h3 mb-2">API Houses</h2>
+                        <div class="alert alert-success" role="alert">
+                            <strong>Estado:</strong> API funcionando correctamente
+                        </div>
+
+                        <h2 class="h5 mb-3">Endpoints disponibles</h2>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Obtener todas las viviendas</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" value="https://dwec-fw-gp.vercel.app/api/houses"
+                                    readonly>
+                                <a href="/api/houses" class="btn btn-primary" target="_blank">Probar</a>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Obtener vivienda por ID</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control"
+                                    value="https://dwec-fw-gp.vercel.app/api/houses?id=3" readonly>
+                                <a href="/api/houses?id=3" class="btn btn-primary" target="_blank">Probar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        Desarrollado para pruebas en DWEC y Frameworks | IES Gregorio Prieto
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

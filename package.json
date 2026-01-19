@@ -1,0 +1,9 @@
+{
+  "name": "dwec-fw-gp",
+  "version": "1.0.0",
+  "description": "API REST para Angular - Varios ejemplos",
+  "main": "api/houses.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
